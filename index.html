@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>rGb</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script
+      type="module"
+      src="https://www.gstatic.com/firebasejs/10.0.0/firebase-app.js"
+    ></script>
+    <script
+      type="module"
+      src="https://www.gstatic.com/firebasejs/10.0.0/firebase-database.js"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="center">
+      <video id="videoPlayer" width="100%" controls>
+        <source id="videoSource" src="videos/start.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </div>
+    <div id="countdownTimer" class="hidden sixtyfour">
+      <span id="timeLeft">17</span>
+    </div>
+    <div class="presentation">
+      <div id="choices" class="hidden flex">
+        <button class="choice-btn sixtyfour" data-choice="1">Option 1</button>
+        <button class="choice-btn sixtyfour" data-choice="2">Option 2</button>
+        <button class="choice-btn sixtyfour" data-choice="3">Option 3</button>
+      </div>
+    </div>
+
+    <script src="script.js" type="module"></script>
+  </body>
+</html>
