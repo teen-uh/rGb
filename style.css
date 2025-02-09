@@ -15,9 +15,9 @@ body {
   display: flex;
 }
 
-/* .hidden {
+.hidden {
   display: none;
-} */
+}
 
 #choices {
   justify-content: center;
