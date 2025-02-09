@@ -31,7 +31,7 @@ body {
 }
 
 .presentation button {
-  pointer-events: none;
+  /* pointer-events: none; */
   background-color: transparent;
   border: none;
   color: white;
@@ -91,4 +91,14 @@ button {
   text-align: center;
   font-size: 8em;
   color: white;
+}
+
+@media (max-width: 900px) {
+  .presentation {
+    display: none;
+  }
+
+  .center {
+    display: none;
+  }
 }

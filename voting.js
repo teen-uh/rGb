@@ -6,7 +6,12 @@ import {
 
 // 🔹 Replace with your Firebase project config
 const firebaseConfig = {
-  /* Your Firebase config */
+  apiKey: "AIzaSyDwYha38dL1SXyHFBfic9_iWYVQZcdKS5o",
+  authDomain: "zapathon-rgb-82ea6.firebaseapp.com",
+  projectId: "zapathon-rgb-82ea6",
+  storageBucket: "zapathon-rgb-82ea6.firebasestorage.app",
+  messagingSenderId: "225660139551",
+  appId: "1:225660139551:web:f0d2462477d7c68bbc3d2a",
 };
 const db = getDatabase();
 
